@@ -1,0 +1,9 @@
+.test {
+    background-color: aqua;
+}
+
+.test:hover {
+    background-color: blue;
+    color: wheat;
+    cursor: grab;
+}
