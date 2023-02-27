@@ -1,9 +1,44 @@
-.test {
-    background-color: aqua;
+.cursor {
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    text-align: center;
 }
 
-.test:hover {
+.cursor:hover {
     background-color: blue;
     color: wheat;
     cursor: grab;
+}
+
+.content {
+    background-color: rgb(81, 0, 255);
+}
+
+.container {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    display: grid;
+    place-items: center;
+}
+
+body {
+    background-color: rgb(52, 52, 52);
+}
+
+.container h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+.content1 {
+    background-color: rgb(255, 255, 255);
+    width: auto;
+    height: auto;
+    border-radius: 15px;
+}
+
+.content1 span {
+    font-size: 45px;
+    display: flex;
+    justify-content: space-around;
 }
