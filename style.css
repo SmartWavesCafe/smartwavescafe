@@ -120,25 +120,29 @@ body {
     text-align: center;
     text-decoration: none;
     color: black;
-    background-color: #EDDFB3;
-    border-radius: 20px;
     margin-left: 100px;
     margin-right: 100px;
     height:fit-content;
   }
 
   .bottom h2 {
+    border-radius: 20px;
     padding: 20px;
     font-size: 30px;
     text-decoration: underline;
+    background-color: #EDDFB3;
   }
 
   .textUpdate {
+    padding-top: 15px;
+    border-radius: 20px;
     margin-right: 100px;
     margin-left: 100px;
     padding-bottom: 30px;
     font-size: 20px;
     margin-top: 20px;
+    background-color: #EDDFB3;
+    width: 1200px;
   }
 
   .bold {
@@ -192,4 +196,26 @@ body {
   header img {
     float: left;
     border-radius: 50px;
+  }
+
+  .round{
+    border-radius: 20px;
+  }
+
+  .aboutme {
+    background-color: #EDDFB3;
+    border-radius: 20px;
+    font-size: 25px;
+    padding-bottom: 20px;  
+  }
+
+  .aboutme h2 {
+    background-color: #c9bd99;
+    margin-left: 200px;
+    margin-right: 200px;
+  }
+
+  .img {
+    margin-top: 20px;
+    border-radius: 20px;
   }
