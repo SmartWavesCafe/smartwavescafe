@@ -1,4 +1,4 @@
-var password = "SmartWavesAdministrator"
+var password = "SmartWavesAdministratorr"
 
 function passcheck(){
     if(document.getElementById('pass1').value != password){
